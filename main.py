@@ -27,7 +27,7 @@ numbers=data.number.to_list()
 while on:
     user_country_number = screen.numinput(title='Country Number', prompt='Enter the country number')
     country_data = data[data.number == user_country_number].country.to_list()[0]
-    print(country_data)
+    
 
     time.sleep(1)
     user_country=screen.textinput(title='Country Name',prompt='Enter the name of the selected country').title()
